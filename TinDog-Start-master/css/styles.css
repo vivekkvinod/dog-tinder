@@ -1,0 +1,158 @@
+.title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.logo1 {
+  font-size: 4rem;
+  color: #ef8172;
+  padding: 15px;
+}
+
+.logo1:hover {
+  color: #ff4c68;
+}
+
+.features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.feat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.dog1 {
+  transform: rotate(25deg);
+  width: 25%;
+  position: absolute;
+  right: 25%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.downloadbtn {
+  margin: 5% 3% 5% 0;
+  /* top right left bottom */
+}
+
+.testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.test-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.testimages {
+  width: 15%;
+  margin: 20px 20px 20px;
+}
+
+.pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .dog1 {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .title {
+    text-align: center;
+  }
+}
+
+.cta {
+  text-align: center;
+  padding: 30px;
+  background-color: #ff4c68;
+}
+
+h3 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 0 10%;
+  font-weight: 900;
+  color: white;
+  padding: 20px;
+}
+
+.footer{
+  text-align: center;
+  line-height: 2;
+  padding: 8% 30%;
+}
+ .ar{
+   padding: 10px;
+ }
